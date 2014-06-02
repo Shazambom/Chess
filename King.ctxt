@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y\ team\ img
+comment0.target=King(int,\ int,\ boolean,\ javax.swing.ImageIcon)
+comment1.params=dx\ dy\ opponent
+comment1.target=boolean\ getValidMove(int,\ int,\ Piece)
+comment2.params=dx\ dy
+comment2.target=boolean\ isInCheck(int,\ int)
+comment3.params=
+comment3.target=boolean\ isInCheckmate()
+comment4.params=
+comment4.target=void\ checkmateAssist()
+comment5.params=dx\ dy\ rook
+comment5.target=boolean\ castle(int,\ int,\ Piece)
+numComments=6

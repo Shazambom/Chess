@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Location(int,\ int)
+comment0.text=\n\ Initalizes\ the\ Location\ object\n\ @param\ x\ the\ x\ coordinate\ of\ the\ Location\ Object\ \n\ @param\ y\ the\ y\ coordinate\ of\ the\ Location\ Object\n
+comment1.params=
+comment1.target=int\ getX()
+comment1.text=\n\ Gets\ the\ x\ coordinate\ of\ the\ Location\ Object\n\ @return\ the\ int\ value\ x\n
+comment2.params=
+comment2.target=int\ getY()
+comment2.text=\n\ Gets\ the\ y\ coordinate\ of\ the\ Location\ Object\n\ @return\ the\ int\ value\ y\n
+numComments=3

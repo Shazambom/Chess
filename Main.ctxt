@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ The\ Main\ function\ of\ the\ program\ and\ is\ what\ runs\ all\ the\ classes\ together\ and\ initalizes\ everything.\r\n\ Initalizes\:\ The\ JFrame\ object,\ The\ array\ of\ JButton\ Objects,\ assigns\ all\ the\ ClickListeners\ to\r\n\ their\ respective\ JButton\ objects.\r\n\ @param\ args\ The\ standard\ String[]\ for\ the\ main\ function\ of\ any\ Java\ program.\ \r\n
+numComments=1

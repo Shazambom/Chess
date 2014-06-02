@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=ClickListener(int,\ int)
+comment0.text=\r\n\ Initializes\ the\ button\ ClickListener\ and\ allows\ it\ to\ remember\ which\ button\ in\ the\ grid\ is\ clicked.\r\n\ @param\ x\ the\ x\ coordinate\ of\ the\ button\ that\ is\ in\ the\ grid\r\n\ @param\ y\ the\ y\ coordinate\ of\ the\ button\ that\ is\ in\ the\ grid\r\n
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Every\ two\ clicks\ this\ method\ generates\ two\ Location\ objects\ and\ updates\ the\ board\ with\ these\ objects.\r\n\ Incraments\ how\ many\ times\ all\ buttons\ in\ the\ grid\ have\ been\ clicked\ as\ a\ whole\ to\ keep\ track\ of\ how\ to\ move\ pieces.\r\n\ Checks\ to\ see\ if\ either\ the\ Opponent's\ King\ is\ in\ Check\ or\ CheckMate\ after\ every\ turn\r\n\ @param\ event\ default\ ActionEvent\ object\r\n
+numComments=2

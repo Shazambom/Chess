@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Board()
+comment0.text=\r\n\ Initializes\ the\ Board,\ sets\ up\ the\ pieces\ in\ the\ starting\ configuration,\ sets\ it\ to\ White's\ turn\ to\ move,\ and\ configures\ the\ images.\r\n
+comment1.params=
+comment1.target=Piece[][]\ getBoard()
+comment1.text=\r\n\ Gets\ the\ double\ array\ that\ represents\ the\ board\ and\ is\ filled\ with\ Piece\ objects\r\n\ @return\ a\ double\ array\ that\ is\ the\ current\ state\ of\ the\ chess\ board\ and\ holds\ all\ the\ Piece\ objects\r\n
+comment2.params=
+comment2.target=boolean\ getTurn()
+comment2.text=\r\n\ Gets\ the\ boolean\ value\ that\ represents\ whose\ turn\ it\ is.\r\n\ @return\ the\ boolean\ value\ turn\ that\ is\ false\ if\ it\ is\ whites\ turn\ and\ true\ if\ it\ is\ blacks\ turn.\r\n
+comment3.params=a\ b
+comment3.target=void\ update(Location,\ Location)
+comment3.text=\r\n\ Updates\ the\ board\ every\ time\ a\ move\ is\ made.\r\n\ This\ method\ performs\ all\ the\ checks\ to\ make\ sure\ moves\ are\ valid\ including\ exception\ moves\ such\ as\ castling,\ ascending,\ check,\ and\ checkmate.\r\n\ This\ method\ also\ updates\ the\ images\ of\ the\ buttons.\r\n\ Activates\ every\ time\ two\ buttons\ are\ pressed\ and\ allows\ pieces\ to\ move.\r\n\ @param\ a\ the\ first\ Location\ object\ that\ represents\ the\ position\ of\ the\ piece\ selected\ to\ move\r\n\ @param\ b\ the\ second\ Location\ object\ that\ represents\ the\ position\ the\ user\ wants\ the\ selected\ piece\ to\ move\r\n
+comment4.params=a\ b
+comment4.target=void\ castleAssister(Location,\ Location)
+comment4.text=\r\n\ Simply\ Asists\ updater\ with\ castling\ because\ castling\ is\ a\ lot\ of\ code\ and\ the\ updater\ method\ was\ getting\ too\ long.\r\n\ You\ really\ shouldn't\ be\ using\ this\ method\ in\ any\ way\ other\ than\ castling.\r\n\ @param\ a\ the\ first\ Location\ object\ that\ represents\ the\ position\ of\ the\ piece\ selected\ to\ move\r\n\ @param\ b\ the\ second\ Location\ object\ that\ represents\ the\ position\ the\ user\ wants\ the\ selected\ piece\ to\ move\r\n
+comment5.params=a
+comment5.target=Piece\ getPiece(Location)
+comment5.text=\r\n\ Gets\ the\ Piece\ at\ the\ Location\ it\ is\ given\r\n\ @param\ a\ The\ Location\ object\ needed\ to\ locate\ the\ piece\ in\ the\ array\r\n\ @return\ the\ piece\ found\ at\ the\ location\ given\r\n
+comment6.params=id\ team
+comment6.target=Piece\ idPiece(int,\ boolean)
+comment6.text=\r\n\ Gets\ the\ Piece\ with\ the\ id\ that\ identifies\ it\ as\ a\ certian\ piece.\r\n\ Note\:\ this\ is\ only\ effective\ if\ there\ is\ one\ of\ these\ pieces\ on\ the\ board.\ \r\n\ It\ will\ simply\ find\ the\ first\ piece\ it\ finds\ if\ there\ are\ more\ than\ one\ of\ the\ piece.\r\n\ This\ method\ is\ generally\ used\ only\ to\ find\ the\ King.\r\n\ @param\ id\ the\ id\ int\ that\ is\ 1-6\ depending\ on\ what\ piece\ it\ is.\r\n\ @param\ team\ the\ boolean\ to\ know\ which\ color\ piece\ you\ are\ looking\ for.\r\n\ @return\ the\ piece\ found\ with\ that\ id.\r\n
+numComments=7

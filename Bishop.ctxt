@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ team\ img
+comment0.target=Bishop(int,\ int,\ boolean,\ javax.swing.ImageIcon)
+comment1.params=dx\ dy\ opponent
+comment1.target=boolean\ getValidMove(int,\ int,\ Piece)
+numComments=2
