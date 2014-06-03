@@ -7,7 +7,8 @@ import javax.swing.*;
  */
 public class Main{
     /* Main Bugs Currently:
-     * No Bugs as of now... if I discover more I will look into them.
+     * I think there are still bugs within the king class. Check there to look. Probably something to do with
+     * isInCheck(), isInCheckmate(), or checkmateAssist() 
      * 890 effective lines of code in total
      * I need to hire an exterminator ;-;
      */
