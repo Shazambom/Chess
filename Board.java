@@ -9,28 +9,28 @@ public class Board{
      */
     public Board(){
         for(int i = 0; i < 8; i++){
-            board[i][1] = new Pawn(i,1,true,new ImageIcon("BPawn.png"));
+            board[i][1] = new Pawn(i,1,true,new ImageIcon(getClass().getResource("BPawn.png")));
         }
         for(int i = 0; i < 8; i++){
-            board[i][6] = new Pawn(i,6,false,new ImageIcon("WPawn.png"));
+            board[i][6] = new Pawn(i,6,false,new ImageIcon(getClass().getResource("WPawn.png")));
         }
-        board[0][0] = new Rook(0,0,true,new ImageIcon("BRook.png"));
-        board[1][0] = new Knight(1,0,true,new ImageIcon("BKnight.png"));
-        board[2][0] = new Bishop(2,0,true,new ImageIcon("BBishop.png"));
-        board[4][0] = new King(4,0,true,new ImageIcon("BKing.png"));
-        board[3][0] = new Queen(3,0,true,new ImageIcon("BQueen.png"));
-        board[5][0] = new Bishop(5,0,true,new ImageIcon("BBishop.png"));
-        board[6][0] = new Knight(6,0,true,new ImageIcon("BKnight.png"));
-        board[7][0] = new Rook(7,0,true,new ImageIcon("BRook.png"));
+        board[0][0] = new Rook(0,0,true,new ImageIcon(getClass().getResource("BRook.png")));
+        board[1][0] = new Knight(1,0,true,new ImageIcon(getClass().getResource("BKnight.png")));
+        board[2][0] = new Bishop(2,0,true,new ImageIcon(getClass().getResource("BBishop.png")));
+        board[4][0] = new King(4,0,true,new ImageIcon(getClass().getResource("BKing.png")));
+        board[3][0] = new Queen(3,0,true,new ImageIcon(getClass().getResource("BQueen.png")));
+        board[5][0] = new Bishop(5,0,true,new ImageIcon(getClass().getResource("BBishop.png")));
+        board[6][0] = new Knight(6,0,true,new ImageIcon(getClass().getResource("BKnight.png")));
+        board[7][0] = new Rook(7,0,true,new ImageIcon(getClass().getResource("BRook.png")));
 
-        board[0][7] = new Rook(0,7,false,new ImageIcon("WRook.png"));
-        board[1][7] = new Knight(1,7,false,new ImageIcon("WKnight.png"));
-        board[2][7] = new Bishop(2,7,false,new ImageIcon("WBishop.png"));
-        board[4][7] = new King(4,7,false,new ImageIcon("WKing.png"));
-        board[3][7] = new Queen(3,7,false,new ImageIcon("WQueen.png"));
-        board[5][7] = new Bishop(5,7,false,new ImageIcon("WBishop.png"));
-        board[6][7] = new Knight(6,7,false,new ImageIcon("WKnight.png"));
-        board[7][7] = new Rook(7,7,false,new ImageIcon("WRook.png"));
+        board[0][7] = new Rook(0,7,false,new ImageIcon(getClass().getResource("WRook.png")));
+        board[1][7] = new Knight(1,7,false,new ImageIcon(getClass().getResource("WKnight.png")));
+        board[2][7] = new Bishop(2,7,false,new ImageIcon(getClass().getResource("WBishop.png")));
+        board[4][7] = new King(4,7,false,new ImageIcon(getClass().getResource("WKing.png")));
+        board[3][7] = new Queen(3,7,false,new ImageIcon(getClass().getResource("WQueen.png")));
+        board[5][7] = new Bishop(5,7,false,new ImageIcon(getClass().getResource("WBishop.png")));
+        board[6][7] = new Knight(6,7,false,new ImageIcon(getClass().getResource("WKnight.png")));
+        board[7][7] = new Rook(7,7,false,new ImageIcon(getClass().getResource("WRook.png")));
         turn = true;
         movePossible = false;
     }
