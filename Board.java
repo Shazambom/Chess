@@ -89,7 +89,7 @@ public class Board{
                     if(b.getX() == a.getX() + 1) board[a.getX()+1][a.getY()] = null;
                     else board[a.getX()-1][a.getY()] = null;
                     movePossible = true;
-                    System.out.println("Enpassant");
+                    Main.text.insert("Enpassant			",0);
                 }
             }
             /*
@@ -117,9 +117,9 @@ public class Board{
             else if(board[a.getX()][a.getY()].getID()== 6 && board[a.getX()][a.getY()].getNumMoves() == 0 && !board[a.getX()][a.getY()].isInCheck(a.getX(), a.getY())){
                 castleAssister(a,b);
             }
-            else System.out.println("You cannot move there");
+            else Main.text.insert("You cannot move there			",0);
         }
-        else System.out.println("It is not your turn");
+        else Main.text.insert("It is not your turn			",0);
         //updates the images on the buttons
         for(int i = 0; i < 8; i++){
             for(int j = 0; j < 8; j++){

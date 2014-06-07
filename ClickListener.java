@@ -33,7 +33,7 @@ public class ClickListener implements ActionListener
                 a = new Location(x,y);
                 if(Board.getPiece(a) == null){ 
                     count = -1;
-                    System.out.println("No piece selected");
+                    Main.text.insert("No piece selected			",0);
                 }
             }
             else{
@@ -47,7 +47,7 @@ public class ClickListener implements ActionListener
             count++;
         }
         else {
-            System.out.println("Exiting Game");
+            Main.text.insert("Exiting Game			",0);
             System.exit(0);
         }
     }

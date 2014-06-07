@@ -16,6 +16,8 @@ public class Main{
     private static final int FRAME_HEIGHT = 750;
     static Board board = new Board();
     static JButton[][] buttonGrid;
+    static JFrame messageScreen = new JFrame();
+    static JTextArea text = new JTextArea("good luck; have fun");
     /**
      * The Main function of the program and is what runs all the classes together and initalizes everything.
      * Initalizes: The JFrame object, The array of JButton Objects, assigns all the ClickListeners to
@@ -47,5 +49,13 @@ public class Main{
         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        
+        text.setLineWrap(true);
+        text.setTabSize(300000);
+        messageScreen.add(text);
+        messageScreen.pack();
+        messageScreen.setSize(150, 75);
+        messageScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        messageScreen.setVisible(true);
     }
 }

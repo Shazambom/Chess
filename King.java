@@ -130,18 +130,18 @@ public class King extends Piece{
             }
             if(makesure){
                 if(super.getTeam()){
-                    System.out.println("Checkmate: White Wins");
+                    Main.text.insert("Checkmate: White Wins			",0);
                     ClickListener.gameState = false;
                 }
                 else{
-                    System.out.println("Checkmate: Black Wins");
+                    Main.text.insert("Checkmate: Black Wins			",0);
                     ClickListener.gameState = false;
                 }
             }
-            else System.out.println("Check");
+            else Main.text.insert("Check			",0);
         }
         else if(this.isInCheck(super.getX(), super.getY())){
-            System.out.println("Check");
+            Main.text.insert("Check			",0);
         }
     }
 
